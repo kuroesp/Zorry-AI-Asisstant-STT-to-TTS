@@ -5,7 +5,7 @@
 </div>
 
 ## ✨ Table of Contents
-- [Why this project exists?](#why_this_project_exists?)
+- [Why this project exists?](#%E2%80%8D-why-this-project-exists)
 - [Project Introduction](#project_introduction)
 - [Features](#features)
 - [Hardware & Software](#hardware&software)
