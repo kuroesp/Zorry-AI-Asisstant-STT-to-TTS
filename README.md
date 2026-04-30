@@ -6,11 +6,11 @@
 
 ## ✨ Table of Contents
 - [Why this project exists?](#%E2%80%8D-why-this-project-exists)
-- [Project Introduction](#project_introduction)
-- [Features](#features)
-- [Hardware & Software](#hardware&software)
-- [API AI Services](#AI_API_services)
-- [Voice Asisstant Architecture](#Voice_Asisstant_Architecture)
+- [Project Introduction](#-project-introduction)
+- [Features](#ⓘ-features)
+- [Hardware & Software](#%EF%B8%8F-hardware--software)
+- [API AI Services](#-ai-api-services)
+- [Voice Asisstant Architecture](#_-voice-asisstant-architecture)
 
 
 ## 👨🏻‍💻 Why this project exists? 
