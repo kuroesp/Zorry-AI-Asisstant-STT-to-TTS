@@ -1,0 +1,13 @@
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+monitor_speed = 115200
+board_build.partitions = huge_app.csv
+lib_deps = 
+    bblanchon/ArduinoJson@^7.0.0
+    https://github.com/espressif/arduino-esp32.git
+    
+
+lib_ignore = 
+    ArduinoOTA
