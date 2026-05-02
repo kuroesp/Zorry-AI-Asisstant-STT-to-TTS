@@ -11,6 +11,7 @@
 - [Hardware & Software](#%EF%B8%8F-hardware--software)
 - [API AI Services](#-ai-api-services)
 - [Voice Asisstant Architecture](#_-voice-asisstant-architecture)
+- [Pin Connections](#-pin-connections)
 
 
 ## 👨🏻‍💻 Why this project exists? 
@@ -64,7 +65,51 @@ With a Voice Activity Detection (VAD) system, the AI can detect when the user is
 - ESP32 : The clean string reply will be forward to ESP32 and convert to MP3 format and request to Server.py.
 - Server.py : While to convert format, Script Server.py will be initialized Microsoft Edge TTS then, get request from ESP32 to convert MP3 to PCM format and get better voices and low noises
 - MAX98357A : After get the voice, with PCM format MAX98357A will be write the PCM and send to Speaker
-- Speaker : The reply AI now, become a voice. 
+- Speaker : The reply AI now, become a voice.
+
+
+## 🔌 Pin Connections
+
+### ESP32 - Breadboard : 
+| EPS32 | Breadboard | 
+|-------|------------|
+| VIN | First Red Rail |
+| GND | First Blue Rail | 
+
+### INMP441 - ESP32 :
+|INMP441 PIN | ESP32 PIN | Descriptions |
+|------------|-----------|--------------|
+| VDD | 3.3V | Do not 5V! | 
+| GND | GND | Put in Breadboard | 
+| L/R | GND | Left Channel Select, put in Breadboard | 
+| SD | D32 | Serial Data | 
+| WS | D15 | L/R Clock | 
+| SCK | D14 | Serial Clock | 
+
+### Micro SD Adapter - EPS32 : 
+|Micro SD Adapter PIN | ESP32 PIN | Description | 
+|---------------------|-----------|-------------|
+| VCC | VIN | Put in Breadboard |
+| GND | GND | Put in Breadboard | 
+| CS | D5 | Card Data |
+| MISO | D19 | Output data |
+| MOSI | D23 | Input data |
+| SCK | D18 | Serial Clock |
+
+### MAX98357A - ESP32 : 
+| MAX98357A PIN | ESP32 PIN | Description | 
+|---------------|-----------|-------------|
+| VIN | 5V Current | Put in Breadboard | 
+| GND | GND | Go straight to ESP32 |
+| LRC | D25 | L/R Clock | 
+| BCLK | D26 | Bit Clock | 
+| DIN | D22 | Receive data | 
+| GAIN | Floating | GND -> LOW, FOAT -> MEDIUM, 3.3V -> HIGH |
+| SD | Floating | Shutdown Mode | 
+
+
+
+
 
 
 
