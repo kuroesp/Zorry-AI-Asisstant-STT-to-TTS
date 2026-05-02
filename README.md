@@ -1,6 +1,6 @@
 <div align ="center">
   
-  # 🤖 Zorry AI-Asisstant-STT to TTS 
+  # 🤖 Zorry AI-Asisstant-STT to TTS v0.3.0
   ### Real-time Edge Voice System
 </div>
 
