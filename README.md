@@ -19,6 +19,7 @@
 - [API AI Services](#-ai-api-services)
 - [Voice Asisstant Architecture](#_-voice-asisstant-architecture)
 - [Pin Connections](#-pin-connections)
+- [Documentation](#-documentation)
 
 
 ## 👨🏻‍💻 Why this project exists? 
@@ -114,6 +115,11 @@ With a Voice Activity Detection (VAD) system, the AI can detect when the user is
 | GAIN | Floating | GND -> LOW, FOAT -> MEDIUM, 3.3V -> HIGH |
 | SD | Floating | Shutdown Mode | 
 
+## Documentation
+
+### FIRST PROTOTYPE :
+
+https://drive.google.com/file/d/1K-012Wpo95srqqBrz1u04YBPJNgkOVaP/view?usp=drive_link
 
 
 
