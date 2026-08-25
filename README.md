@@ -19,7 +19,7 @@
 - [API AI Services](#-ai-api-services)
 - [Voice Asisstant Architecture](#_-voice-asisstant-architecture)
 - [Pin Connections](#-pin-connections)
-- [Documentation](#-documentation)
+- [Documentation](#documentation)
 
 
 ## 👨🏻‍💻 Why this project exists? 
