@@ -5,7 +5,7 @@
   ### Real-time Edge Voice System
 
 
-  <img src="img/preview(1).jpg" width="400">
+  <img src="img/preview (1).jpg" width="400">
 
 
   
