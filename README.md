@@ -1,7 +1,14 @@
+
 <div align ="center">
   
   # 🤖 Zorry AI-Asisstant-STT to TTS v0.3.0
   ### Real-time Edge Voice System
+
+
+  <img src="img/preview.jpg" width="400">
+
+
+  
 </div>
 
 ## ✨ Table of Contents
